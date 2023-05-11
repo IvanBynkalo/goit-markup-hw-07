@@ -25,14 +25,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*flex-basis: calc((100%-90px)/3);
+    flex-basis: calc((100% - 90px)/3);
 }
 .team-content {
     background: #F5F4FA;
    
 }
 .team-content-item {
-    /*flex-basis: calc((100%-120px)/4);*/
+    flex-basis: calc((100% - 120px)/4);
     margin-left: 30px;
     margin-bottom: 30px;
 

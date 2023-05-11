@@ -289,8 +289,8 @@ body {
 
 .about-list {
   display: flex;
-  /*flex-basis: calc((100%-120px)/4);*/
   margin-left: -30px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 
 .about-list-item {
@@ -351,14 +351,15 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /*flex-basis: calc((100%-90px)/3);
-  }
-  .team-content {
-      background: #F5F4FA;
+  flex-basis: calc((100% - 90px) / 3);
+}
 
-  }
-  .team-content-item {
-      /*flex-basis: calc((100%-120px)/4);*/
+.team-content {
+  background: #F5F4FA;
+}
+
+.team-content-item {
+  flex-basis: calc((100% - 120px) / 4);
   margin-left: 30px;
   margin-bottom: 30px;
 }
@@ -641,7 +642,7 @@ body {
 }
 
 .work-content-list {
-  /*flex-basis: calc((100%-90px)/3);*/
+  flex-basis: calc((100% - 90px) / 3);
   margin-bottom: 30px;
   margin-left: 30px;
 }
